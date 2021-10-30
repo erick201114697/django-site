@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'sistema',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'PASSWORD': 'Eeca180_24',
+        'HOST': 'database-1.cgbsisyvt8dt.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
